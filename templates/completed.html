@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% block content %}
+
+
+    <div id="user">
+        <h2>Your User Details:</h2>
+        {% for key,value in form_data.items() %}
+        <h2>{{key}}</h2>
+        <p>{{value}}</p>
+        {% endfor %}
+    </div>
+
+{% endblock content %}

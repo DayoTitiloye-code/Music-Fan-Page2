@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Fan Page</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>User Input</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <h1>User Input Page</h1>
+    <form action="/user" method="POST">
+        <label for="name">Your name</label>
+        <input type="text" name="name" id="name" placeholder="Your name here">
+        <label for="email">Your email</label>
+        <input type="text" name="email" id="email" placeholder="Your email here">
+        <input type="submit" value="submit" id="submit">
+    </form>
+
+    <main>
+        {% block content %}
+        {% endblock content %}
+    </main>
 </body>
+
 </html>
