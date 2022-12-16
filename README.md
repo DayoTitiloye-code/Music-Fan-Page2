@@ -17,4 +17,8 @@ to users so they can see the data they have input.
 - Addition of static files
 - Using SQLAlchemy to create a database
 
+### Challenges
+- Getting results to show on a different page.
+
+
 
