@@ -13,7 +13,7 @@ to users so they can see the data they have input.
 ### Wins
 - Connected Flask to templates (front-end)
 - Use of templates
-- Inclusion of errorr handling routes
+- Inclusion of error handling routes
 - Addition of static files
 - Using SQLAlchemy to create a database
 
